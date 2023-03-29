@@ -1,0 +1,7 @@
+#ifndef MQTT_CONSTANTS_H
+#define MQTT_CONSTANTS_H
+{{ range $name, $value := .Constants }}
+#define {{ $name }} "{{ $value }}"
+{{- end }}
+
+#endif // MQTT_CONSTANTS_H

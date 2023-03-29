@@ -1,0 +1,3 @@
+{{- range $name, $value := .Constants }}
+export const {{ $name }}: string = "{{ $value }}";
+{{- end }}

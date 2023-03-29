@@ -1,0 +1,4 @@
+from typing import Literal
+{{ range $name, $value := .Constants }}
+{{ $name }}: Literal["{{ $value }}"] = "{{ $value }}"
+{{- end }}

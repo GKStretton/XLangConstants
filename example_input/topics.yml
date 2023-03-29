@@ -1,0 +1,4 @@
+constants:
+  TOPIC_A: "topic/alpha/get"
+  TOPIC_B: "topic/beta/get"
+  TOPIC_D: "topic/delta/set"

@@ -1,0 +1,7 @@
+package {{ .Package }}
+
+const (
+{{- range $name, $value := .Constants }}
+	{{ $name }} string = "{{ $value }}"
+{{- end }}
+)

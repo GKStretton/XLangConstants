@@ -1,0 +1,8 @@
+version: "3.7"
+
+services:
+  xlangconstants:
+    build: .
+    volumes:
+      - ./example_input:/input
+      - ./example_output:/output
